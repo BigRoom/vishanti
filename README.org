@@ -10,4 +10,4 @@ We take some cues from the marvel superhero lineup
 | [[https://github.com/BigRoom/profx][profx]]    | this is the coordinator that allows vision to talk to the irc server that powers bigroom                      |
 | [[https://github.com/BigRoom/zombies][zombies]]  | this keeps users connected to irc through vision connected so they have a history, pretty much an irc bouncer |
 | [[https://github.com/BigRoom/website][website]]  | this is the site that powers [[https://bigroom.co][bigroom.co]]                                                                       |
-| [[https://github.com/BigRoom/vishanti][vishanti]] | the docs, so we can keep track of what does what                                                             |
+| [[https://github.com/BigRoom/vishanti][vishanti]] | the docs, so we can keep track of what does what                                                              |
