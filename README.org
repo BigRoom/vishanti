@@ -1,4 +1,9 @@
 * Vishanti, The lore of big room
+#+CAPTION: Bigroom Logo
+[[./imgs/logo.jpg]]
+
+* What is Big Room?
+Big room is a chat service
 
 * Repo Names
 We take some cues from the marvel superhero lineup
