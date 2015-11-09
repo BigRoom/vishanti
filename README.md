@@ -19,3 +19,9 @@ We take some cues from the marvel superhero lineup
 | [zombies](https://github.com/BigRoom/zombies)   | Keeps users connected to IRC through vision connected so they have a history, pretty much an irc bouncer |
 | [website](https://github.com/BigRoom/website)   | This big room landing page http://bigroom.co                                                                |
 | [vishanti](https://github.com/BigRoom/vishanti) | The docs, so we can keep track of what does what                                                              |
+
+## Documentation
+
+This repository also contains all of the design specifications for our protocols. Currently we have
+
+- [WebSocket](WEBSOCKET_PROTOCOL.md)
