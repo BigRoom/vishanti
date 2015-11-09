@@ -2,7 +2,7 @@
 
 This is documentation for the WebSocket Protocol implemented by BigRoom/vision and used by BigRoom/mystique to make real time communications possible.
 
-**note: When first connecting to the WebSocket you need to authenticate yourself using the `access_token` parameter on the request. Eg: `var ws = WebSocket('http://beta.bigroom.co/api/ws?access_token=xxx.xxx.xxx')`**
+**note: When first connecting to the WebSocket you need to authenticate yourself using the `access_token` parameter on the request. Eg: `var ws = WebSocket('ws://beta.bigroom.co/api/ws?access_token=xxx.xxx.xxx')`**
 
 ## Channel Keys
 
@@ -22,7 +22,7 @@ A "Channel Key" is a way of describing a specific channel on a server. It is a c
 
 The basic structure for an incoming websocket message is:
 
-```json
+```js
 {
     'name': string,
     'contents': object
@@ -38,7 +38,7 @@ The contents variable contains the data which is being processed.
 
 Channels is used for retrieving a list of all of the channels which the current user is currently a part of.
 
-```json
+```js
 {
     'name': 'CHANNELS',
     'contents': [
@@ -52,7 +52,7 @@ Channels is used for retrieving a list of all of the channels which the current 
 
 Message is used for receiving a message from the IRC server.
 
-```json
+```js
 {
     'name': 'MESSAGE',
     'contents': {
@@ -69,7 +69,7 @@ Message is used for receiving a message from the IRC server.
 
 The basic structure for an outgoing message is:
 
-```json
+```js
 {
     'name': string,
     'message': string,
@@ -85,7 +85,7 @@ The basic structure for an outgoing message is:
 
 Set is how you join a channel over WebSockets
 
-```json
+```js
 {
     'name': 'SET',
     'message': 'CHANNEL KEY'
@@ -99,7 +99,7 @@ Set is how you join a channel over WebSockets
 
 Send is how a message is sent from a WebSocket into the Zombies pool, into the actual IRC server
 
-```json
+```js
 {
     'name': 'SEND',
     'message': 'potato.',
@@ -114,7 +114,7 @@ Send is how a message is sent from a WebSocket into the Zombies pool, into the a
 
 Channels is the command which dispatches a command to get all of the channels a user is currently in.
 
-```json
+```js
 {
     'name': 'CHANNELS'
 }
