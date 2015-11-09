@@ -19,6 +19,7 @@ We take some cues from the marvel superhero lineup
 | [zombies](https://github.com/BigRoom/zombies)   | Keeps users connected to IRC through vision connected so they have a history, pretty much an irc bouncer |
 | [website](https://github.com/BigRoom/website)   | This big room landing page http://bigroom.co                                                                |
 | [vishanti](https://github.com/BigRoom/vishanti) | The docs, so we can keep track of what does what                                                              |
+| [communicator](https://github.com/BigRoom/communicator) | Our HTTP/JSON communiator library. Super simple. Super fun |
 
 ## Documentation
 
