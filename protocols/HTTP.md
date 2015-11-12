@@ -87,7 +87,7 @@ The current user route gets the user that belongs to the access token
 
 ### Connect to WebSocket - GET/POST/ETC. /api/ws?access_token=XXX.XXX.XXX
 
-The WebSocket route connects an authenticated user to their IRC bot. The WebSocket protocol can be found in [WEBSOCKET_PROTOCOL.md](WEBSOCKET_PROTOCOL.md).
+The WebSocket route connects an authenticated user to their IRC bot. The WebSocket protocol can be found in [WEBSOCKET.md](WEBSOCKET.md).
 
 ## Servers
 
@@ -139,4 +139,4 @@ This route gets the scrollback from a certain channel.
 
 - Data contains an array of messages
 - Time is the time the message was sent in Unix Nanoseconds
-- Channel_key is the channel_key which the message was dispatched to (See [WEBSOCKETS_PROTOCOL.md](WEBSOCKETS_PROTOCOL.md))
+- Channel_key is the channel_key which the message was dispatched to (See [WEBSOCKET.md](WEBSOCKET.md))
