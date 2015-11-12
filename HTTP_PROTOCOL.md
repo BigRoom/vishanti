@@ -116,7 +116,7 @@ The get default server provides the web client the IP of the IRC Host they shoul
 
 This route gets the scrollback from a certain channel.
 
-*note: the channel_name URL variable should **not** include the `#` symbol*
+*note: the channel_name URL variable should _not_ include the `#` symbol*
 
 #### Response
 
