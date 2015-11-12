@@ -26,3 +26,4 @@ We take some cues from the marvel superhero lineup
 This repository also contains all of the design specifications for our protocols. Currently we have
 
 - [WebSocket](WEBSOCKET_PROTOCOL.md)
+- [HTTP](HTTP_PROTOCOL.md)
